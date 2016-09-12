@@ -1,0 +1,99 @@
+.arcticmodal-overlay,
+.arcticmodal-container { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; }
+.arcticmodal-container { overflow: auto; margin: 0; padding: 0; border: 0; border-collapse: collapse; }
+*:first-child+html .arcticmodal-container { height: 100% }
+.arcticmodal-container_i { height: 100%; margin: 0 auto; }
+.arcticmodal-container_i2 { padding: 24px; margin: 0; border: 0; vertical-align: middle; }
+.arcticmodal-error { padding: 20px; border-radius: 10px; background: #000; color: #fff; }
+.arcticmodal-loading { width: 80px; height: 80px; border-radius: 10px; background: #000 url(loading.gif) no-repeat 50% 50%; }
+
+
+.box-modal {
+	position: relative;
+	width: 400px;
+	padding: 16px;
+	color: #000;
+	font: 16px arial;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+	background: #cc0000;
+}
+.box-modal h3 {
+    ffont-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.box-modal_close {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-modal_close:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.box-modal input {
+    background: url(../img/input_t.png) no-repeat 0 0;
+    width: 214px;
+    height: 28px;
+    line-height: 28px;
+    color: #898989;
+    font-size: 14px;
+    padding: 0 7px;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+.box-modal label {
+    display: block;
+    margin: 0 auto 18px auto;
+}
+
+.box-modal a {
+    background: url(../img/button_t.png) no-repeat 0 0;
+    width: 239px;
+    height: 42px;
+    padding: 6px 0 0 0;
+    display: block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 0 2px 1px #b3701a;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box-modal .linksubmit {
+    background: url(../img/button_t.png) no-repeat 0 0;
+    width: 239px;
+    height: 50px;
+    display: block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 0 2px 1px #b3701a;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.box-modal textarea.area {
+    background: url(../img/input_area.png) no-repeat 0 0;
+    width: 214px;
+    height: 56px;
+    line-height: 17px;
+    color: #898989;
+    font-size: 14px;
+    padding: 0 7px;
+    font-family: 'Roboto', arial, sans-serif;
+    padding-bottom: 15px;
+    padding-top: 3px;
+}
